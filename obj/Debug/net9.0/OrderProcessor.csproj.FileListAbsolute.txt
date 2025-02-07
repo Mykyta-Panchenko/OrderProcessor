@@ -1,0 +1,15 @@
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/bin/Debug/net9.0/OrderProcessor
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/bin/Debug/net9.0/OrderProcessor.deps.json
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/bin/Debug/net9.0/OrderProcessor.runtimeconfig.json
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/bin/Debug/net9.0/OrderProcessor.dll
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/bin/Debug/net9.0/OrderProcessor.pdb
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/OrderProcessor.GeneratedMSBuildEditorConfig.editorconfig
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/OrderProcessor.AssemblyInfoInputs.cache
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/OrderProcessor.AssemblyInfo.cs
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/OrderProcessor.csproj.CoreCompileInputs.cache
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/OrderProcessor.sourcelink.json
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/OrderProcessor.dll
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/refint/OrderProcessor.dll
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/OrderProcessor.pdb
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/OrderProcessor.genruntimeconfig.cache
+/home/koputo/Documents/praktGIT/Refactor/OrderProcessor/obj/Debug/net9.0/ref/OrderProcessor.dll
