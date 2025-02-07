@@ -5,35 +5,29 @@ class OrderProcessor
     public void ProcessOrder(string productName, int quantity, string paymentMethod, string customerEmail)
     {
         Console.WriteLine("Processing order...");
-
-        // Перевірка наявності товару
+    
+        if (!ValidateOrder(quantity))
+            return;
+    
+        PaymentProcessor processor = new PaymentProcessor();
+        processor.ProcessPayment(paymentMethod);
+    
+        EmailNotifier notifier = new EmailNotifier();
+        notifier.SendEmail(customerEmail);
+    
+        Console.WriteLine("Order processed successfully.");
+    }
+    
+    private bool ValidateOrder(int quantity)
+    {
         if (quantity <= 0)
         {
             Console.WriteLine("Invalid quantity.");
-            return;
+            return false;
         }
-
-        // Обробка платежу
-        if (paymentMethod == "CreditCard")
-        {
-            Console.WriteLine("Processing credit card payment...");
-        }
-        else if (paymentMethod == "PayPal")
-        {
-            Console.WriteLine("Processing PayPal payment...");
-        }
-        else
-        {
-            Console.WriteLine("Unknown payment method.");
-            return;
-        }
-
-        // Надсилання підтвердження
-        Console.WriteLine($"Sending confirmation email to {customerEmail}...");
-        
-        Console.WriteLine("Order processed successfully.");
+        return true;
     }
-
+    
     static void Main()
     {
         OrderProcessor processor = new OrderProcessor();
